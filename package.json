@@ -1,0 +1,25 @@
+{
+  "name": "fracas-project",
+  "version": "1.0.0",
+  "description": "this is fracas project to see the data insights",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "buffer": "^6.0.3",
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  }
+}
